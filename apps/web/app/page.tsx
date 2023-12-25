@@ -1,5 +1,3 @@
 export default function Page(): JSX.Element {
-  return (
-    <div>Hello world</div>
-  );
+    return <div className="bg-red-500">Hello world</div>;
 }
