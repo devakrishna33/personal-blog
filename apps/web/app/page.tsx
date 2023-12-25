@@ -54,10 +54,9 @@ export default function Page(): JSX.Element {
             <p className="mt-4">
                 What to do about the remaining 10%? What if I don't want to move
                 my images to Cloudflare's R2? Simple solution is to proxy the
-                requests to Vercel from Cloudflare. This will cache the
-                responses in Cloudflare's CDN and serve the requests from
-                Cloudflare's CDN. This will drastically reduce the bandwidth
-                costs. Is it enough? Probably for most cases.
+                requests to Vercel from Cloudflare. This will cache and server
+                the responses in Cloudflare's CDN. This will drastically reduce
+                the bandwidth costs. Is it enough? Probably for most cases.
             </p>
 
             <p className="mt-4">
